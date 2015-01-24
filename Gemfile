@@ -9,6 +9,7 @@ gem 'rails-api'
 # Use postgresql as the database for Active Record
 gem 'pg'
 gem 'warden', '~> 1.2.3'
+gem 'pry'
 # gem 'dotenv'
 
 group :development, :test do
