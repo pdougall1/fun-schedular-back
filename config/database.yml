@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: fun-schedular-back_development
   pool: 5
-  username: fun-schedular-back
+  username: #fun-schedular-back
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,13 +48,5 @@ test:
   encoding: unicode
   database: fun-schedular-back_test
   pool: 5
-  username: fun-schedular-back
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: fun-schedular-back_production
-  pool: 5
-  username: fun-schedular-back
+  username: # fun-schedular-back
   password:
