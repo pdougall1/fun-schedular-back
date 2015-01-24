@@ -7,7 +7,7 @@ describe "Requesting an authorization token" do
 
 	specify 'with valid credentials' do
 		post '/authorizations', email: user.email, password: user.password, format: :JSON
-		expect(response.status).to eql(200)
+		expect(response.status).to eql(201)
 		expect(JSON.parse(response.body)["auth_token"]).to eql(user.auth_token)
 	end
 
