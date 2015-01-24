@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 describe "Requesting an authorization token" do
-	let!(:user) { FactoryGirl.create(:user, password: 'sneaky', password_confirmation: 'sneaky', email: 'coolguy@example.com') }
+	let!(:user) { FactoryGirl.create(:user) }
 
 	specify 'with valid credentials' do
 		post '/authorizations', email: user.email, password: user.password, format: :JSON
