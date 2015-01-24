@@ -10,6 +10,7 @@ gem 'rails-api'
 gem 'pg'
 gem 'warden', '~> 1.2.3'
 gem 'pry'
+gem 'bcrypt-ruby', :require => 'bcrypt'
 # gem 'dotenv'
 
 group :development, :test do
