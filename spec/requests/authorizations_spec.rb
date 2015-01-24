@@ -1,5 +1,3 @@
-# this is pretty much coppied from Jordan Killback on Frolfr
-
 require 'rails_helper'
 
 describe "Requesting an authorization token" do
