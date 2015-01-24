@@ -8,6 +8,17 @@ gem 'rails-api'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'warden', '~> 1.2.3'
+# gem 'dotenv'
+
+group :development, :test do
+	gem 'factory_girl_rails', '~> 4.0'
+	gem 'rspec-rails', '~> 3.0.0'
+end
+
+# group :test do
+# 	gem 'webmock'
+# end
 
 
 
